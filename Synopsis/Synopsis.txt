@@ -1,0 +1,28 @@
+Data Base System Lab – Shopping Cart System- Mini Project- Synopsis
+
+Team Members – 
+    1. Arnav Karnik – 220962021 – AIML B
+    2. Nikhil Nair – 220962013 – AIML B
+
+Problem Statement – Design and implement a shopping cart system that lets shoppers collect items into a shopping cart and purchased together. Check for the availability of the item and deal with the non-available item.
+
+Abstract (with data and functional requirements) – 
+
+To design and implement a shopping cart system, we can create a database schema with the necessary tables to store information about products, customers, orders, and the shopping cart itself. Here's an abstract representation of the functional and data requirements using SQL:
+    1. Entities used – 
+    a. Product Table 
+    b. Customer Table
+    c. Order table
+    d. Order item Table
+    e. Shopping Cart Table
+    f. Cart Items Table
+
+    2. Functionality – 
+    a. Adding items to the cart
+    b. Viewing Cart
+    c. Updating Cart
+    d. Removing items from cart
+    e. Checking Out
+    f. Order Confirmation
+    g. Handling Non-Availability of items
+ 
