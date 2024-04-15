@@ -95,7 +95,8 @@ AND id IN (
 
 Check if OrderTable is Empty:
 
-SELECT CASE WHEN EXISTS (SELECT * FROM OrderTable) THEN 'Not Empty' ELSE 'Empty' END AS table_status;
+SELECT CASE WHEN COUNT(*) > 0 THEN 'Not Empty' ELSE 'Empty' END AS table_status
+FROM OrderTable;
 
 Check if a Customer has Empty Shopping Cart:
 
