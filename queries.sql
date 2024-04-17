@@ -48,8 +48,7 @@ SELECT c.id, c.name, c.email, SUM(ot.total_amount) AS total_spent
 FROM Customers c
 JOIN OrderTable ot ON c.id = ot.customer_id
 GROUP BY c.id, c.name, c.email
-ORDER BY total_spent DESC
-LIMIT 3;
+ORDER BY total_spent DESC;
 
 Union of Customer Emails from Orders and Shopping Carts:
 
